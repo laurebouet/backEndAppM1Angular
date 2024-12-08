@@ -9,8 +9,8 @@ mongoose.Promise = global.Promise;
 mongoose.set('debug', true);
 
 // remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud s
-const uri = 'mongodb+srv://laurebouetAdmin:DnxrmWw4HeF0Nd@cluster0.1kzsz.mongodb.net/assignmentsDB?retryWrites=true&w=majority&appName=Cluster0';
-
+// const uri = 'mongodb+srv://laurebouetAdmin:DnxrmWw4HeF0Nd@cluster0.1kzsz.mongodb.net/assignmentsDB?retryWrites=true&w=majority&appName=Cluster0';
+const uri = "https://backendappm1angular-1.onrender.com";
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
